@@ -13,6 +13,6 @@ code {
     monospace;
 }
 
-/* #root {
-  padding: 16px 0;
-} */
+.active {
+  transition: 0.3s;
+}

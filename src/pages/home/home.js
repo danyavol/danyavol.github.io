@@ -1,28 +1,28 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-//import './home.scss';
 
 class Home extends Component {
     render() {
         return (
-            <div>
-                <h3 className="text-center">Курсовая работа на тему</h3>
-                <h2 className="text-center mb-5">Проблема Трудоустройства</h2>
+            <div className="homePage">
+                <h3 className="text-center">Курсовой проект</h3>
+                <h4 className="text-center">на тему</h4>
+                <h2 className="text-center mb-5">Проектирвоание информационной системы "Трудоустройство"</h2>
                 <p className="text-right">Выполнил работу:<br/>Волосюк Даниил</p>
 
                 <div className="d-flex justify-content-end mt-5">
-                    <Link to="/content"><button type="button" className="btn btn-outline-primary">Следующая</button></Link>
+                    <Link to="/intro"><button type="button" className="btn btn-outline-primary">Следующая</button></Link>
                 </div>
             </div>
         );
     }
 
     componentWillUnmount() {
-        document.getElementById('menu1').classList.remove('active');
+        document.getElementById('menu-main').classList.remove('active');
     }
 
     componentDidMount() {
-        document.getElementById('menu1').classList.add('active');
+        document.getElementById('menu-main').classList.add('active');
     }
 }
 
