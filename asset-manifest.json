@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/systems-project/static/css/main.eb2ed1bc.chunk.css",
+    "main.js": "/systems-project/static/js/main.c636b114.chunk.js",
+    "main.js.map": "/systems-project/static/js/main.c636b114.chunk.js.map",
+    "runtime-main.js": "/systems-project/static/js/runtime-main.325b62ba.js",
+    "runtime-main.js.map": "/systems-project/static/js/runtime-main.325b62ba.js.map",
+    "static/css/2.08a21236.chunk.css": "/systems-project/static/css/2.08a21236.chunk.css",
+    "static/js/2.ca8f8dc0.chunk.js": "/systems-project/static/js/2.ca8f8dc0.chunk.js",
+    "static/js/2.ca8f8dc0.chunk.js.map": "/systems-project/static/js/2.ca8f8dc0.chunk.js.map",
+    "index.html": "/systems-project/index.html",
+    "precache-manifest.ce015ed95e285605faad5ec76b06d954.js": "/systems-project/precache-manifest.ce015ed95e285605faad5ec76b06d954.js",
+    "service-worker.js": "/systems-project/service-worker.js",
+    "static/css/2.08a21236.chunk.css.map": "/systems-project/static/css/2.08a21236.chunk.css.map",
+    "static/css/main.eb2ed1bc.chunk.css.map": "/systems-project/static/css/main.eb2ed1bc.chunk.css.map",
+    "static/js/2.ca8f8dc0.chunk.js.LICENSE.txt": "/systems-project/static/js/2.ca8f8dc0.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/systems-project/static/media/background.400cc061.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.325b62ba.js",
+    "static/css/2.08a21236.chunk.css",
+    "static/js/2.ca8f8dc0.chunk.js",
+    "static/css/main.eb2ed1bc.chunk.css",
+    "static/js/main.c636b114.chunk.js"
+  ]
+}
