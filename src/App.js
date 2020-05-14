@@ -17,35 +17,36 @@ function App() {
   return (
 	<Router>
 		<ScrollToTop />
-		<div className="container my-5">
+		<div className="container-xl my-5">
 			<div className="row h-75 justify-content-start">
 
 				<Header />
-				
-				<div className="content col-8 border rounded shadow-sm p-3 bg-white">
-					<Switch>
-						<Route exact path="/">
-							<Home />
-						</Route>
-						<Route exact path="/intro">
-							<Intro />
-						</Route>
-						<Route exact path="/razdel-1/glava-1">
-							<R1_G1 />
-						</Route>
-						<Route exact path="/razdel-1/glava-2">
-							<R1_G2 />
-						</Route>
-						<Route exact path="/razdel-1/glava-3">
-							<R1_G3 />
-						</Route>
-						<Route exact path="/razdel-1/glava-4">
-							<R1_G4 />
-						</Route>
-						<Route exact path="/razdel-2/glava-1">
-							<R2_G1 />
-						</Route>
-					</Switch>
+				<div className="col-8 p-0">
+					<div className="content border rounded shadow-sm p-3 bg-white">
+						<Switch>
+							<Route exact path="/">
+								<Home />
+							</Route>
+							<Route exact path="/intro">
+								<Intro />
+							</Route>
+							<Route exact path="/razdel-1/glava-1">
+								<R1_G1 />
+							</Route>
+							<Route exact path="/razdel-1/glava-2">
+								<R1_G2 />
+							</Route>
+							<Route exact path="/razdel-1/glava-3">
+								<R1_G3 />
+							</Route>
+							<Route exact path="/razdel-1/glava-4">
+								<R1_G4 />
+							</Route>
+							<Route exact path="/razdel-2/glava-1">
+								<R2_G1 />
+							</Route>
+						</Switch>
+					</div>
 				</div>
 				
 			</div>

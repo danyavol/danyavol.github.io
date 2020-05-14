@@ -16,3 +16,11 @@ code {
 .active {
   transition: 0.3s;
 }
+
+.text-ind {
+  text-indent: 45px;
+}
+
+.list-group-item {
+  padding: 0.50rem 1.25rem;
+}

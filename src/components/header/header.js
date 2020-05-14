@@ -5,7 +5,7 @@ import './header.scss';
 class Header extends Component {
     render() {
         return (
-            <div className="col-3 p-0">
+            <div className="col-4 p-0">
                 <div className="header border rounded shadow-sm p-3 mr-3 sticky-top">
                     <ul className="list-group-flush">
                     <Link to="/"><li className="list-group-item list-group-item-action border-bottom" id="menu-main">Главная</li></Link>
