@@ -23,8 +23,8 @@ class R1_G4 extends Component {
 
 
                 <div className="d-flex justify-content-between mt-5">
-                    <Link to="/razdel-1/glava-3"><button type="button" className="btn btn-outline-primary">Предыдущая</button></Link>
-                    <Link to="/razdel-2/glava-1"><button type="button" className="btn btn-outline-primary">Следующая</button></Link>
+                    <Link to="/systems-project/razdel-1/glava-3"><button type="button" className="btn btn-outline-primary">Предыдущая</button></Link>
+                    <Link to="/systems-project/razdel-2/glava-1"><button type="button" className="btn btn-outline-primary">Следующая</button></Link>
                 </div>
             </div>
         );

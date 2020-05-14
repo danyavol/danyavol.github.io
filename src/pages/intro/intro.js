@@ -12,8 +12,8 @@ class Intro extends Component {
                 <p className="text-justify text-ind">Целью курсовой работы является раскрытие проблем занятости общества. Для этого необходимо выполнить следующие задачи: раскрыть само понятие занятости, рассмотреть концепции занятости, оценить уровни занятости и безработицы, их положение на современном рынке труда.</p>
                 <p className="text-justify text-ind">Для решения данной проблемы, я также предлагаю создать web-сайт, который будет способствовать поиску интересующих вакансий и дальнейшее трудоустройство. Данная информационная система предполагает сопровождение пользователя на всех этапах трудоустройства: начиная составлением резюме и заканчивая трудоустройством в компанию.</p>
                 <div className="d-flex justify-content-between mt-5">
-                    <Link to="/"><button type="button" className="btn btn-outline-primary">Предыдущая</button></Link>
-                    <Link to="/razdel-1/glava-1"><button type="button" className="btn btn-outline-primary">Следующая</button></Link>
+                    <Link to="/systems-project"><button type="button" className="btn btn-outline-primary">Предыдущая</button></Link>
+                    <Link to="/systems-project/razdel-1/glava-1"><button type="button" className="btn btn-outline-primary">Следующая</button></Link>
                 </div>
             </div>
         );

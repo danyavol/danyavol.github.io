@@ -37,8 +37,8 @@ class R2_G1 extends Component {
                 <p className="text-justify text-ind">Таким образом, проанализировав все системы и подсистемы, делаем вывод, что большую часть времени в трудоустройстве составляет поиск подходящей вакансии на бирже труда, который может длиться до двух месяц.</p>
 
                 <div className="d-flex justify-content-between mt-5">
-                    <Link to="/razdel-1/glava-4"><button type="button" className="btn btn-outline-primary">Предыдущая</button></Link>
-                    <Link to="/razdel-2/glava-2"><button type="button" className="btn btn-outline-primary">Следующая</button></Link>
+                    <Link to="/systems-project/razdel-1/glava-4"><button type="button" className="btn btn-outline-primary">Предыдущая</button></Link>
+                    <Link to="/systems-project/razdel-2/glava-2"><button type="button" className="btn btn-outline-primary">Следующая</button></Link>
                 </div>
             </div>
         );

@@ -23,8 +23,8 @@ class R1_G2 extends Component {
                 <p className="text-justify text-ind">Основными методами исследования рынка труда являются маркетинговые исследования. Маркетинговые исследования представляют собой сбор, обработку и анализ данных с целью уменьшения неопределенности, сопутствующей принятию маркетинговых решений. Исследованиям подвергаются рынок, конкуренты, потребители, цены, внутренний потенциал субъекта рынка рабочей силы. Основой исследований маркетинга служит общенаучные и аналитико-прогностические методы. Информационное обеспечение складывается из кабинетных и полевых исследований, а также из различных источников информации.</p>
 
                 <div className="d-flex justify-content-between mt-5">
-                    <Link to="/razdel-1/glava-1"><button type="button" className="btn btn-outline-primary">Предыдущая</button></Link>
-                    <Link to="/razdel-1/glava-3"><button type="button" className="btn btn-outline-primary">Следующая</button></Link>
+                    <Link to="/systems-project/razdel-1/glava-1"><button type="button" className="btn btn-outline-primary">Предыдущая</button></Link>
+                    <Link to="/systems-project/razdel-1/glava-3"><button type="button" className="btn btn-outline-primary">Следующая</button></Link>
                 </div>
             </div>
         );

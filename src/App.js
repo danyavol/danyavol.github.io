@@ -24,25 +24,25 @@ function App() {
 				<div className="col-8 p-0">
 					<div className="content border rounded shadow-sm p-3 bg-white">
 						<Switch>
-							<Route exact path="/">
+							<Route exact path="/systems-project">
 								<Home />
 							</Route>
-							<Route exact path="/intro">
+							<Route exact path="/systems-project/intro">
 								<Intro />
 							</Route>
-							<Route exact path="/razdel-1/glava-1">
+							<Route exact path="/systems-project/razdel-1/glava-1">
 								<R1_G1 />
 							</Route>
-							<Route exact path="/razdel-1/glava-2">
+							<Route exact path="/systems-project/razdel-1/glava-2">
 								<R1_G2 />
 							</Route>
-							<Route exact path="/razdel-1/glava-3">
+							<Route exact path="/systems-project/razdel-1/glava-3">
 								<R1_G3 />
 							</Route>
-							<Route exact path="/razdel-1/glava-4">
+							<Route exact path="/systems-project/razdel-1/glava-4">
 								<R1_G4 />
 							</Route>
-							<Route exact path="/razdel-2/glava-1">
+							<Route exact path="/systems-project/razdel-2/glava-1">
 								<R2_G1 />
 							</Route>
 						</Switch>

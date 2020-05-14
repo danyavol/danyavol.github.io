@@ -18,8 +18,8 @@ class R1_G3 extends Component {
                 <p className="text-justify text-ind">Если работодателю понравится ваше резюме, а также будут свободные вакансии, вам будет предложено посетить собеседование на выбранную вакансию. Подробнее о собеседовании в следующей главе.</p>
 
                 <div className="d-flex justify-content-between mt-5">
-                    <Link to="/razdel-1/glava-2"><button type="button" className="btn btn-outline-primary">Предыдущая</button></Link>
-                    <Link to="/razdel-1/glava-4"><button type="button" className="btn btn-outline-primary">Следующая</button></Link>
+                    <Link to="/systems-project/razdel-1/glava-2"><button type="button" className="btn btn-outline-primary">Предыдущая</button></Link>
+                    <Link to="/systems-project/razdel-1/glava-4"><button type="button" className="btn btn-outline-primary">Следующая</button></Link>
                 </div>
             </div>
         );

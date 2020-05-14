@@ -11,7 +11,7 @@ class Home extends Component {
                 <p className="text-right">Выполнил работу:<br/>Волосюк Даниил</p>
 
                 <div className="d-flex justify-content-end mt-5">
-                    <Link to="/intro"><button type="button" className="btn btn-outline-primary">Следующая</button></Link>
+                    <Link to="/systems-project/intro"><button type="button" className="btn btn-outline-primary">Следующая</button></Link>
                 </div>
             </div>
         );
