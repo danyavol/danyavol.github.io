@@ -12,6 +12,13 @@ import R1_G2 from './pages/r1_g2/r1_g2';
 import R1_G3 from './pages/r1_g3/r1_g3';
 import R1_G4 from './pages/r1_g4/r1_g4';
 import R2_G1 from './pages/r2_g1/r2_g1';
+import R2_G2 from './pages/r2_g2/r2_g2';
+import R3_G1 from './pages/r3_g1/r3_g1';
+import R3_G2 from './pages/r3_g2/r3_g2';
+import R3_G3 from './pages/r3_g3/r3_g3';
+import R4 from './pages/r4/r4';
+import Zakl from './pages/zakl/zakl';
+import Ss from './pages/ss/ss';
 
 function App() {
   return (
@@ -44,6 +51,27 @@ function App() {
 							</Route>
 							<Route exact path="/systems-project/razdel-2/glava-1">
 								<R2_G1 />
+							</Route>
+							<Route exact path="/systems-project/razdel-2/glava-2">
+								<R2_G2 />
+							</Route>
+							<Route exact path="/systems-project/razdel-3/glava-1">
+								<R3_G1 />
+							</Route>
+							<Route exact path="/systems-project/razdel-3/glava-2">
+								<R3_G2 />
+							</Route>
+							<Route exact path="/systems-project/razdel-3/glava-3">
+								<R3_G3 />
+							</Route>
+							<Route exact path="/systems-project/tehnicheskoe-zadanie">
+								<R4 />
+							</Route>
+							<Route exact path="/systems-project/zakluchenie">
+								<Zakl />
+							</Route>
+							<Route exact path="/systems-project/ispolzovannie-istochniki">
+								<Ss />
 							</Route>
 						</Switch>
 					</div>

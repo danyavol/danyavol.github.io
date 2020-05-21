@@ -24,3 +24,7 @@ code {
 .list-group-item {
   padding: 0.50rem 1.25rem;
 }
+
+.list-padding {
+  padding-left: 4rem;
+}
