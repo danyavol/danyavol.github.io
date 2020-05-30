@@ -1,0 +1,52 @@
+.no-m {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.i1 {
+    margin-left: 10px;
+}
+
+.i2 {
+    margin-left: 20px;
+}
+
+.i3 {
+    margin-left: 30px;
+}
+
+.i4 {
+    margin-left: 40px;
+}
+
+.i5 {
+    margin-left: 50px;
+}
+
+.tz-table {
+    text-align: center;
+    margin: 5px 0 5px 10px;
+
+    tr:nth-child(1) {
+        height: 50px;
+    }
+
+    tr td:nth-child(2) {
+        min-width: 200px;
+    }
+
+    td {
+        border: 1px solid black;
+    }
+}
+
+@media (max-width: 800px) {
+    .tz-table tr td:nth-child(2) {
+        min-width: 0px;
+    } 
+}

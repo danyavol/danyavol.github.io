@@ -21,10 +21,25 @@ import Zakl from './pages/zakl/zakl';
 import Ss from './pages/ss/ss';
 
 function App() {
+
+	// window.addEventListener('scroll', (e) => {
+	// 	let menu = document.getElementById('menu');
+	// 	let container = document.getElementById('main-container');
+	// 	if (menu != null) {
+	// 		let startPoint = container.offsetHeight - 15;
+	// 		let endPoint = container.offsetTop + menu.offsetHeight - window.innerHeight + 15;
+	// 		if (window.scrollY > endPoint) {
+	// 			menu.style.top = (window.scrollY - endPoint) + 'px';
+	// 		} else {
+	// 			menu.style.top = '0px';
+	// 		}
+	// 	}
+	// })
+
   return (
 	<Router>
 		<ScrollToTop />
-		<div className="container-xl my-5">
+		<div className="container-xl my-5 main-container">
 			<div className="row h-75 justify-content-start">
 
 				<Header />

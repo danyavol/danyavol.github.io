@@ -1,6 +1,8 @@
 .header {
     background: white;
-    top: 16px;
+    top: 5px;
+    bottom: 5px;
+    min-width: 213px;
     ul {
         padding: 0;
         margin: 0;
@@ -13,4 +15,22 @@
 
 .list-last-item {
     color: #212529;
+}
+
+@media (max-width: 718px) {
+    .header {
+        top: 0;
+    } 
+}
+
+.clear-style {
+    color: black;
+
+    > li {
+        border-bottom: 1px solid black !important;
+    }
+
+    :hover {
+        color: black;
+    }
 }

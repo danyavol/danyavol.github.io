@@ -1,0 +1,13 @@
+.content {
+    min-width: 474px;
+}
+
+.main-container {
+    min-width: 647px;
+}
+
+@media (max-width: 718px) {
+    .my-5 {
+        margin: 3px 0 !important;
+    }
+}
